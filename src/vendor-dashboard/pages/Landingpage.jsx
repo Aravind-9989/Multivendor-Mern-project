@@ -1,13 +1,13 @@
 
 import React, {useState, useEffect} from 'react'
 import NavBar from '../components/Navbar'
-import SideBar from '../components/SideBar'
+import SideBar from '../components/Sidebar'
 import Login from '../components/forms/Login'
 import Register from '../components/forms/Register'
 import AddFirm from '../components/forms/Add-firm'
 import AddProduct from '../components/forms/Add-Product'
 import Welcome from '../components/welcome'
-import AllProducts from '../components/AllProducts'
+import AllProducts from '../components/Allproducts';
 
 
 const LandingPage = () => {
