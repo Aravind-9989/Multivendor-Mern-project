@@ -1,0 +1,73 @@
+.login-section {
+    border: 2px solid #007bff; /* Light blue border */
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa; /* Light background for contrast */
+  }
+  
+  /* Form container */
+  .auth-form {
+    width: 100%;
+    max-width: 400px; /* Restrict form width */
+    padding: 20px; /* Add padding inside the form */
+    border: 1px solid #ced4da; /* Light gray border */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #ffffff; /* White background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px; /* Spacing between form elements */
+  }
+  
+  /* Styling for the form labels */
+  .auth-form label {
+    align-self: flex-start; /* Align labels to the left */
+    font-weight: 500; /* Slightly bolder text */
+    color: #495057; /* Dark gray for readability */
+  }
+  
+  /* Styling for the input fields */
+  .auth-form input {
+    width: 100%; /* Full width inside the form */
+    padding: 10px; /* Internal padding */
+    margin-top: 5px; /* Small space above input */
+    border: 1px solid #ced4da; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #f8f9fa; /* Light gray background */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+  }
+  
+  /* Hover effect for input fields */
+  .auth-form input:hover {
+    background-color: #e9ecef; /* Slightly darker on hover */
+  }
+  
+  /* Styling for the submit button */
+  .button-submit {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .button-submit button {
+    width: 100%; /* Full width button */
+    padding: 10px 20px; /* Padding inside button */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #007bff; /* Blue background */
+    color: #ffffff; /* White text */
+    font-weight: bold; /* Bold text */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+  
+  /* Hover effect for submit button */
+  .button-submit button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
