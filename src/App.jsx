@@ -1,11 +1,9 @@
 import React from 'react'
-import LandingPage from './vendor-dashboard/pages/landingpage'
+import LandingPage from '../src/dashboard/pages/landingpage'
 import { Routes, Route } from 'react-router-dom';
 
 import "./App.css";
-import NavBar from "../src/vendor-dashboard/components/Navbar"
-import Login from '../src/vendor-dashboard/components/forms/Login'
-import NotFound from './vendor-dashboard/components/Notfound'
+import NotFound from './dashboard/components/Notfound'
 
 const App = () => {
   return (

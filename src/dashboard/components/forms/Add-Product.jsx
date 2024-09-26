@@ -1,6 +1,6 @@
 
 import React, {useState} from 'react'
-import { API_URL } from '../../data/apiPath';
+import { API_URL } from '../../data/apipath';
 import { ThreeCircles } from 'react-loader-spinner';
 
 

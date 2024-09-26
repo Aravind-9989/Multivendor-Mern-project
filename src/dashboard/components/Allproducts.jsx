@@ -1,6 +1,6 @@
 
 import React,{useState, useEffect} from 'react'
-import { API_URL } from '../data/apiPath';
+import { API_URL } from '../data/apipath';
 
 const AllProducts = () => {
     const [products, setProducts]= useState([]);
