@@ -1,5 +1,5 @@
 import React from 'react'
-import LandingPage from './vendor-dashboard/pages/Landingpage'
+import LandingPage from './vendor-dashboard/pages/landingpage'
 import { Routes, Route } from 'react-router-dom';
 
 import "./App.css";
